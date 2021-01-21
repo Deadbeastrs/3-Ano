@@ -1,0 +1,52 @@
+Jan 19 20:44:35.483 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 19 20:44:35.483 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59761.
+Jan 19 20:44:35.485 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 19 20:44:35.485 HYPERVISOR: exec_cmd: hypervisor working_dir /home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips 
+Jan 19 20:44:35.485 GENERAL: working_dir=/home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips
+Jan 19 20:44:35.486 HYPERVISOR: exec_cmd: hypervisor working_dir /home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips/6eb4ff99-7e75-4d9a-8d7b-828e44caa88c 
+Jan 19 20:44:35.486 GENERAL: working_dir=/home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips/6eb4ff99-7e75-4d9a-8d7b-828e44caa88c
+Jan 19 20:44:35.486 HYPERVISOR: exec_cmd: vm create F2 2 c3725 
+Jan 19 20:44:35.486 VM: VM F2 created.
+Jan 19 20:44:35.487 HYPERVISOR: exec_cmd: vm set_con_tcp_port F2 5036 
+Jan 19 20:44:35.487 HYPERVISOR: exec_cmd: c3725 get_mac_addr F2 
+Jan 19 20:44:35.487 HYPERVISOR: exec_cmd: vm set_disk0 F2 1 
+Jan 19 20:44:35.488 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:35.488 HYPERVISOR: exec_cmd: vm set_idle_pc F2 0x60a68e70 
+Jan 19 20:44:35.489 HYPERVISOR: exec_cmd: vm set_ios F2 /home/guilherme/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 19 20:44:35.489 HYPERVISOR: exec_cmd: c3725 set_mac_addr F2 c202.2497.0000 
+Jan 19 20:44:35.490 HYPERVISOR: exec_cmd: vm set_nvram F2 256 
+Jan 19 20:44:35.490 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:35.490 HYPERVISOR: exec_cmd: vm slot_add_binding F2 1 0 NM-16ESW 
+Jan 19 20:44:36.664 HYPERVISOR: exec_cmd: nio create_udp udp-0aeefed0-1f45-4370-97fb-ad0ee287e358 10008 127.0.0.1 10009 
+Jan 19 20:44:36.880 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 14 udp-0aeefed0-1f45-4370-97fb-ad0ee287e358 
+Jan 19 20:44:36.881 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:36.989 HYPERVISOR: exec_cmd: nio create_udp udp-862b02aa-076c-45bb-9e14-fea66dedb3aa 10012 127.0.0.1 10013 
+Jan 19 20:44:36.994 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 15 udp-862b02aa-076c-45bb-9e14-fea66dedb3aa 
+Jan 19 20:44:36.994 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:37.880 HYPERVISOR: exec_cmd: nio create_udp udp-943022c7-0a26-42f3-8ed6-4992b9853d98 10030 127.0.0.1 10031 
+Jan 19 20:44:37.881 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 1 13 udp-943022c7-0a26-42f3-8ed6-4992b9853d98 
+Jan 19 20:44:37.882 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:39.720 HYPERVISOR: exec_cmd: nio create_udp udp-4de5e1e0-fc4a-4abf-ab18-1ed4cece9124 10062 127.0.0.1 10063 
+Jan 19 20:44:39.721 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 0 0 udp-4de5e1e0-fc4a-4abf-ab18-1ed4cece9124 
+Jan 19 20:44:39.722 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:40.051 HYPERVISOR: exec_cmd: nio create_udp udp-8894d3ad-31d9-42e1-88ba-8c8ba298a6f1 10068 127.0.0.1 10069 
+Jan 19 20:44:40.053 HYPERVISOR: exec_cmd: vm slot_add_nio_binding F2 0 1 udp-8894d3ad-31d9-42e1-88ba-8c8ba298a6f1 
+Jan 19 20:44:40.053 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:43.853 HYPERVISOR: exec_cmd: vm set_ghost_status F2 2 
+Jan 19 20:44:43.854 HYPERVISOR: exec_cmd: vm set_ghost_file F2 /home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jan 19 20:44:43.854 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:44:43.855 HYPERVISOR: exec_cmd: vm set_config F2 configs/i2_startup-config.cfg 
+Jan 19 20:44:43.855 HYPERVISOR: exec_cmd: vm start F2 
+Jan 19 20:48:59.076 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:48:59.077 HYPERVISOR: exec_cmd: vm stop F2 
+Jan 19 20:48:59.244 VM: VM F2 shutdown.
+Jan 19 20:48:59.245 HYPERVISOR: exec_cmd: vm extract_config F2 
+Jan 19 20:49:04.861 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:49:04.862 HYPERVISOR: exec_cmd: vm extract_config F2 
+Jan 19 20:49:05.005 HYPERVISOR: exec_cmd: vm get_status F2 
+Jan 19 20:49:05.006 HYPERVISOR: exec_cmd: vm extract_config F2 
+Jan 19 20:49:05.007 HYPERVISOR: exec_cmd: vm delete F2 
+Jan 19 20:49:05.007 VM: VM F2 destroyed.
+Jan 19 20:49:05.009 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 20:49:05.218 HYPERVISOR: Stopped.
+Jan 19 20:49:05.218 GENERAL: reset done.

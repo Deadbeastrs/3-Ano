@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "type_traits": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
+    }
+}

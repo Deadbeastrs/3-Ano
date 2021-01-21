@@ -1,0 +1,47 @@
+Nov 23 20:17:13.214 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 23 20:17:13.214 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58847.
+Nov 23 20:17:13.224 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 23 20:17:13.224 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips 
+Nov 23 20:17:13.224 GENERAL: working_dir=/home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips
+Nov 23 20:17:13.224 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips/0cb84eea-2582-4afb-ac3f-398d78de2d61 
+Nov 23 20:17:13.224 GENERAL: working_dir=/home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips/0cb84eea-2582-4afb-ac3f-398d78de2d61
+Nov 23 20:17:13.225 HYPERVISOR: exec_cmd: vm create ESW1 2 c3725 
+Nov 23 20:17:13.225 VM: VM ESW1 created.
+Nov 23 20:17:13.225 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5004 
+Nov 23 20:17:13.225 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW1 
+Nov 23 20:17:13.226 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Nov 23 20:17:13.226 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:13.226 HYPERVISOR: exec_cmd: vm set_idle_pc ESW1 0x60a68e70 
+Nov 23 20:17:13.227 HYPERVISOR: exec_cmd: vm set_ios ESW1 /home/luiscosta/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 23 20:17:13.227 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW1 c202.1c16.0000 
+Nov 23 20:17:13.228 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Nov 23 20:17:13.228 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:13.228 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Nov 23 20:17:13.285 HYPERVISOR: exec_cmd: nio create_udp udp-588cdbea-8e3f-46ee-9bd5-9e2a9f54e1f7 10020 127.0.0.1 10021 
+Nov 23 20:17:13.500 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 13 udp-588cdbea-8e3f-46ee-9bd5-9e2a9f54e1f7 
+Nov 23 20:17:13.501 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:13.909 HYPERVISOR: exec_cmd: nio create_udp udp-9b0b7647-0cbc-4476-a2ba-24f39075580f 10032 127.0.0.1 10033 
+Nov 23 20:17:13.911 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 14 udp-9b0b7647-0cbc-4476-a2ba-24f39075580f 
+Nov 23 20:17:13.911 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:13.953 HYPERVISOR: exec_cmd: nio create_udp udp-380393ed-e5a7-4715-bb3b-258f6fb87814 10036 127.0.0.1 10037 
+Nov 23 20:17:13.955 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 15 udp-380393ed-e5a7-4715-bb3b-258f6fb87814 
+Nov 23 20:17:13.955 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:15.542 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Nov 23 20:17:15.542 VM: VM Ghost created.
+Nov 23 20:17:15.544 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/luiscosta/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 23 20:17:15.545 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 23 20:17:15.546 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 23 20:17:15.547 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 23 20:17:15.547 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Nov 23 20:17:15.548 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 23 20:17:15.843 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 23 20:17:15.844 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 23 20:17:15.998 VM: VM Ghost shutdown.
+Nov 23 20:17:15.999 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 23 20:17:15.999 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 23 20:17:15.999 VM: VM Ghost destroyed.
+Nov 23 20:17:16.001 HYPERVISOR: exec_cmd: vm set_ghost_status ESW1 2 
+Nov 23 20:17:16.001 HYPERVISOR: exec_cmd: vm set_ghost_file ESW1 /home/luiscosta/3-Ano/FR/Guião 1/Exe19_37/Exe19_37/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 23 20:17:16.001 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 23 20:17:16.002 HYPERVISOR: exec_cmd: vm set_config ESW1 configs/i2_startup-config.cfg 
+Nov 23 20:17:16.002 HYPERVISOR: exec_cmd: vm start ESW1 

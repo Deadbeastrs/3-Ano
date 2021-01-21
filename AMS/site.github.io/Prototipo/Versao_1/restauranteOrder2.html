@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NutrilinEeste</title>
+    <meta name="description" content="Entrega de comida saudável">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-Footer-Small-Logo.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Cards-v2.css">
+    <link rel="stylesheet" href="assets/css/Button-Outlines---Pretty.css">
+    <link rel="stylesheet" href="assets/css/Card-Group-Classic-1.css">
+    <link rel="stylesheet" href="assets/css/Card-Group-Classic.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Multi-step-form.css">
+    <link rel="stylesheet" href="assets/css/SIdebar-Responsive-2-1.css">
+    <link rel="stylesheet" href="assets/css/SIdebar-Responsive-2.css">
+    <link rel="stylesheet" href="assets/css/Studious-selectbox.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Vertical-Left-SideBar-by-Jigar-Mistry.css">
+</head>
+
+<body style="background: rgb(255,255,255);">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background: rgb(254,254,254);height: 74px;color: rgb(255,255,255);margin: 0px;margin-right: 0px;margin-left: 0px;position: relative;">
+        <div class="container-fluid" style="margin:0px;"><a class="navbar-brand js-scroll-trigger" href="index_inner.html" style="color: rgb(17,108,2);">Nutrilink</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="color: rgba(213,213,213,0);">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="index_inner.html" style="color: rgb(17,108,2);margin: px;margin-right: 0px;">Inicio</a></li> 
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="restaurantes.html" style="color: rgb(17,108,2);">Restaurantes</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="settings.html" style="color: rgb(17,108,2);">Definições</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="../../Micro-Site/Versao_2/index.html" style="color: rgb(17,108,2);">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="img-container">
+            <div class="positioning text-center">
+                <h1 class="textmenu text-center display-4">Restaurante1</h1>
+                <p class="textmenuparagraph">Carne Saudável - Produtos Biológicos</p>
+                <p class="textmenuparagraph">5-15 min</p>
+                <p class="textmenuparagraph">R. José Estevão 55, 3800-213 Aveiro, Portugal</p>
+            </div><img class="mainImage" src="assets/img/b1.jpg"></div>
+    </div>
+    <div class="container text-center">
+        <h4 class="subtitle text-center">Refeições</h4>
+        <div class="row">
+            <div class="col-md-4 pad">
+                <div class="row text-break text-center border1">
+                    <div class="col my-auto">
+                        <p class="subttitle1">Hamburguer caseiro</p>
+                        <p class="subttitle2">9.25€</p><button class="btn btn-link border-pretty btntext p-0" style="color: #83ad47;font-size: 0.7rem;" type="button" data-toggle="modal" data-target="#ItemModal">&nbsp;Mais Informação<i class="icon ion-android-arrow-forward"></i></button>
+                        <div class="amount">
+                            <!-- Tenho que mudar o id dos icones e o display-numero-->
+                            <p style="padding: 0px;margin: 0px;height: 0px;">Paragraph</p><i class="fa fa-minus-circle icon1" id="1" onclick="subFood(this.id);"></i><span class="text-black" id="disp-1" style="margin-left: 3%;margin-right: 3%;">0</span><i class="fa fa-plus-circle icon1" id="1" onclick="addFood(this.id);"></i></div>
+                    </div>
+                    <div class="col p-0"><img class="imgIcon" src="assets/img/menu5.jpeg"></div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="ItemModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-black" style="font-weight: bold;font-size: 1.5rem;">Descrição:</p>
+                        <p class="text-black" style="font-size: 1rem;">Este prato foi realizado com batatas do quintal, alface da quinta</p>
+                        <hr>
+                        <p class="text-black" style="font-weight: bold;font-size: 1.5rem;">Informação Nutricional:</p>
+                        <p class="text-black" style="font-size: 1rem;">Quantidade: 100g</p>
+                        <p class="text-black" style="font-size: 1rem;">Calorias: 158 kcal</p>
+                        <p class="text-black" style="font-size: 1rem;">Gorduras Totais: 0.9g</p>
+                        <p class="text-black" style="font-size: 1rem;">Colesterol: 0.9g</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!------>
+            <div class="col-md-4 pad">
+                <div class="row text-break text-center border1">
+                    <div class="col my-auto">
+                        <p class="subttitle1">Rojões e castanhas</p>
+                        <p class="subttitle2">5.70€</p><button class="btn btn-link border-pretty btntext p-0" style="color: #83ad47;font-size: 0.7rem;" type="button" data-toggle="modal" data-target="#ItemModal">&nbsp;Mais Informação<i class="icon ion-android-arrow-forward"></i></button>
+                        <div class="amount">
+                            <!-- Tenho que mudar o id dos icones e o display-numero-->
+                            <p style="padding: 0px;margin: 0px;height: 0px;">Paragraph</p><i class="fa fa-minus-circle icon1" id="2" onclick="subFood(this.id);"></i><span class="text-black" id="disp-2" style="margin-left: 3%;margin-right: 3%;">0</span><i class="fa fa-plus-circle icon1" id="2" onclick="addFood(this.id);"></i></div>
+                    </div>
+                    <div class="col p-0"><img class="imgIcon" src="assets/img/menu9.jpeg"></div>
+                </div>
+            </div>
+            <div class="col-md-4 pad">
+                <div class="row text-break text-center border1">
+                    <div class="col my-auto">
+                        <p class="subttitle1">Noodles de carne</p>
+                        <p class="subttitle2">11.90€</p><button class="btn btn-link border-pretty btntext p-0" style="color: #83ad47;font-size: 0.7rem;" type="button" data-toggle="modal" data-target="#ItemModal">&nbsp;Mais Informação<i class="icon ion-android-arrow-forward"></i></button>
+                        <div class="amount">
+                            <!-- Tenho que mudar o id dos icones e o display-numero-->
+                            <p style="padding: 0px;margin: 0px;height: 0px;">Paragraph</p><i class="fa fa-minus-circle icon1" id="3" onclick="subFood(this.id);"></i><span class="text-black" id="disp-3" style="margin-left: 3%;margin-right: 3%;">0</span><i class="fa fa-plus-circle icon1" id="3" onclick="addFood(this.id);"></i></div>
+                    </div>
+                    <div class="col p-0"><img class="imgIcon" src="assets/img/menu7.jpeg"></div>
+                </div>
+            </div>
+        </div>
+        <h4 class="subtitle text-center">Sopas</h4>
+        <div class="row">
+            <div class="col-md-4 pad">
+                <div class="row text-break text-center border1">
+                    <div class="col my-auto">
+                        <p class="subttitle1">Caldo Verde</p>
+                        <p class="subttitle2">3.30€</p><button class="btn btn-link border-pretty btntext p-0" style="color: #83ad47;font-size: 0.7rem;" type="button" data-toggle="modal" data-target="#ItemModal">&nbsp;Mais Informação<i class="icon ion-android-arrow-forward"></i></button>
+                        <div class="amount">
+                            <!-- Tenho que mudar o id dos icones e o display-numero-->
+                            <p style="padding: 0px;margin: 0px;height: 0px;">Paragraph</p><i class="fa fa-minus-circle icon1" id="4" onclick="subFood(this.id);"></i><span class="text-black" id="disp-4" style="margin-left: 3%;margin-right: 3%;">0</span><i class="fa fa-plus-circle icon1" id="4" onclick="addFood(this.id);"></i></div>
+                    </div>
+                    <div class="col p-0"><img class="imgIcon" src="assets/img/menu8.jpeg"></div>
+                </div>
+            </div>
+        </div><a class="btn btn-success text-uppercase border rounded" style="margin-bottom: 5%;" onclick="confirm();" role="button" target="_blank">Continuar&nbsp;<i class="fa fa-arrow-circle-right"></i></a></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script src="assets/js/Multi-step-form.js"></script>
+    <script src="assets/js/Studious-selectbox.js"></script>
+    <script src="assets/js/propFood.js"></script>
+</body>
+
+</html>

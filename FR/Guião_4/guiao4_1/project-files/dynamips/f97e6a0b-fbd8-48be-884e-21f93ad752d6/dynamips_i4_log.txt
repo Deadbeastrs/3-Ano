@@ -1,0 +1,24 @@
+Dec 15 16:36:40.918 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 15 16:36:40.918 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35765.
+Dec 15 16:36:40.928 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 15 16:36:40.928 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/FR/Guião 4/guiao4_1/project-files/dynamips 
+Dec 15 16:36:40.928 GENERAL: working_dir=/home/luiscosta/3-Ano/FR/Guião 4/guiao4_1/project-files/dynamips
+Dec 15 16:36:40.929 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 15 16:36:41.322 HYPERVISOR: exec_cmd: nio create_udp udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 10007 127.0.0.1 10006 
+Dec 15 16:36:41.322 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 
+Dec 15 16:36:41.339 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 1 
+Dec 15 16:36:41.361 HYPERVISOR: exec_cmd: nio create_udp udp-eb64c528-015c-4c91-8d93-864e49a25382 10010 127.0.0.1 10011 
+Dec 15 16:36:41.361 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-eb64c528-015c-4c91-8d93-864e49a25382 
+Dec 15 16:36:41.380 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-eb64c528-015c-4c91-8d93-864e49a25382 1 
+Dec 15 16:36:41.407 HYPERVISOR: exec_cmd: nio create_udp udp-cb92d3bd-709f-4a8f-9a64-79d687200e5f 10012 127.0.0.1 10013 
+Dec 15 16:36:41.408 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-cb92d3bd-709f-4a8f-9a64-79d687200e5f 
+Dec 15 16:36:41.420 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-cb92d3bd-709f-4a8f-9a64-79d687200e5f 1 
+Dec 15 16:36:53.244 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 1 
+Dec 15 16:36:53.245 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-eb64c528-015c-4c91-8d93-864e49a25382 1 
+Dec 15 16:36:53.245 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-cb92d3bd-709f-4a8f-9a64-79d687200e5f 1 
+Dec 15 16:36:56.290 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 1 
+Dec 15 16:36:56.291 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-eb64c528-015c-4c91-8d93-864e49a25382 1 
+Dec 15 16:36:56.291 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-cb92d3bd-709f-4a8f-9a64-79d687200e5f 1 
+Dec 15 19:00:23.733 HYPERVISOR: exec_cmd: nio bind_filter udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 2 capture 
+Dec 15 19:00:23.733 HYPERVISOR: exec_cmd: nio setup_filter udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 2 en10mb /home/luiscosta/3-Ano/FR/Guião 4/guiao4_1/project-files/captures/R2_FastEthernet01_to_Switch1_Ethernet0.pcap 
+Dec 15 20:59:01.762 HYPERVISOR: exec_cmd: nio unbind_filter udp-4c8b2899-e4cb-4e7a-bb89-6f6188394a2d 2 

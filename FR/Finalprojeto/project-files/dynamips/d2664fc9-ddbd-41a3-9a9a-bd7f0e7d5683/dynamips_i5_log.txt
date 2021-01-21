@@ -1,0 +1,22 @@
+Jan 19 20:44:35.673 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 19 20:44:35.673 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34967.
+Jan 19 20:44:35.687 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 19 20:44:35.687 HYPERVISOR: exec_cmd: hypervisor working_dir /home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips 
+Jan 19 20:44:35.687 GENERAL: working_dir=/home/guilherme/Desktop/Finalprojeto_92996_93134/project-files/dynamips
+Jan 19 20:44:35.688 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 19 20:44:36.276 HYPERVISOR: exec_cmd: nio create_udp udp-338413bb-275b-4eb0-9a85-6f8382731e3a 10001 127.0.0.1 10000 
+Jan 19 20:44:36.276 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-338413bb-275b-4eb0-9a85-6f8382731e3a 
+Jan 19 20:44:36.295 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-338413bb-275b-4eb0-9a85-6f8382731e3a 2 
+Jan 19 20:44:36.414 HYPERVISOR: exec_cmd: nio create_udp udp-1a8a45f2-ad78-45d9-8761-2a7228cff048 10003 127.0.0.1 10002 
+Jan 19 20:44:36.414 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1a8a45f2-ad78-45d9-8761-2a7228cff048 
+Jan 19 20:44:36.435 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1a8a45f2-ad78-45d9-8761-2a7228cff048 3 
+Jan 19 20:44:36.964 HYPERVISOR: exec_cmd: nio create_udp udp-6d393eb9-5e71-444b-949c-84586330335f 10010 127.0.0.1 10011 
+Jan 19 20:44:36.964 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-6d393eb9-5e71-444b-949c-84586330335f 
+Jan 19 20:44:36.977 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-6d393eb9-5e71-444b-949c-84586330335f 1 
+Jan 19 20:44:41.126 HYPERVISOR: exec_cmd: nio create_udp udp-a5373376-3a7a-4d69-a12b-1af6952fb592 10117 127.0.0.1 10116 
+Jan 19 20:44:41.127 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-a5373376-3a7a-4d69-a12b-1af6952fb592 
+Jan 19 20:44:41.136 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-a5373376-3a7a-4d69-a12b-1af6952fb592 2 
+Jan 19 20:49:04.990 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jan 19 20:49:05.055 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 20:49:05.414 HYPERVISOR: Stopped.
+Jan 19 20:49:05.415 GENERAL: reset done.

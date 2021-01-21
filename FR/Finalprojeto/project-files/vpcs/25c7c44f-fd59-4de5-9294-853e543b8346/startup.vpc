@@ -1,0 +1,2 @@
+set pcname ADMIN
+ip 10.164.1.4 10.164.1.2 24

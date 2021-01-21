@@ -1,0 +1,68 @@
+Nov 22 20:55:58.516 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 22 20:55:58.516 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 44835.
+Nov 22 20:55:58.526 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 22 20:55:58.527 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips 
+Nov 22 20:55:58.527 GENERAL: working_dir=/home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips
+Nov 22 20:55:58.527 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/10c5d14c-57ba-442d-a0b1-868ad8bcc968 
+Nov 22 20:55:58.527 GENERAL: working_dir=/home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/10c5d14c-57ba-442d-a0b1-868ad8bcc968
+Nov 22 20:55:58.528 HYPERVISOR: exec_cmd: vm create ESW2 2 c3725 
+Nov 22 20:55:58.528 VM: VM ESW2 created.
+Nov 22 20:55:58.529 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5001 
+Nov 22 20:55:58.530 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Nov 22 20:55:58.531 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/luiscosta/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 22 20:55:58.532 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 20:55:58.533 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60a68e70 
+Nov 22 20:55:58.533 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Nov 22 20:55:58.534 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Nov 22 20:55:58.535 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 20:55:58.535 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Nov 22 20:55:58.584 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/luiscosta/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 22 20:55:59.887 HYPERVISOR: exec_cmd: vm set_ios ESW2 /home/luiscosta/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 22 20:56:16.372 HYPERVISOR: exec_cmd: nio create_udp udp-f8bcdd01-b825-44d9-a3b9-9b182517a039 10010 127.0.0.1 10011 
+Nov 22 20:56:16.581 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 1 udp-f8bcdd01-b825-44d9-a3b9-9b182517a039 
+Nov 22 20:56:16.582 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 20:56:21.608 HYPERVISOR: exec_cmd: nio create_udp udp-4a93124a-2d00-49cb-9fe8-13ddc84eaa20 10016 127.0.0.1 10017 
+Nov 22 20:56:21.609 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 1 0 udp-4a93124a-2d00-49cb-9fe8-13ddc84eaa20 
+Nov 22 20:56:21.610 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 21:36:37.908 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Nov 22 21:36:37.910 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 22 21:36:37.911 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 21:36:37.912 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Nov 22 21:36:37.913 HYPERVISOR: exec_cmd: vm start ESW2 
+Nov 22 21:36:39.091 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 21:36:39.091 HYPERVISOR: exec_cmd: vm stop ESW2 
+Nov 22 21:36:39.176 VM: VM ESW2 shutdown.
+Nov 22 21:36:39.176 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Nov 22 21:38:58.570 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Nov 22 21:38:58.573 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 22 21:38:58.574 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 21:38:58.576 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Nov 22 21:38:58.577 HYPERVISOR: exec_cmd: vm start ESW2 
+Nov 22 21:42:40.740 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 21:42:40.743 HYPERVISOR: exec_cmd: vm suspend ESW2 
+Nov 22 22:12:50.541 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Nov 22 22:12:50.544 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 22 22:12:50.545 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:12:50.546 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:12:50.547 HYPERVISOR: exec_cmd: vm resume ESW2 
+Nov 22 22:18:47.670 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:18:47.670 HYPERVISOR: exec_cmd: vm suspend ESW2 
+Nov 22 22:42:06.703 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Nov 22 22:42:06.703 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 22 22:42:06.704 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:42:06.704 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:42:06.705 HYPERVISOR: exec_cmd: vm resume ESW2 
+Nov 22 22:46:43.745 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:46:43.746 HYPERVISOR: exec_cmd: vm stop ESW2 
+Nov 22 22:46:43.854 VM: VM ESW2 shutdown.
+Nov 22 22:46:43.854 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Nov 22 22:46:43.856 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 22:46:43.856 HYPERVISOR: exec_cmd: vm set_config ESW2 configs/i2_startup-config.cfg 
+Nov 22 22:46:43.857 HYPERVISOR: exec_cmd: vm start ESW2 
+Nov 22 22:54:25.799 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Nov 22 22:54:25.801 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 /home/luiscosta/3-Ano/FR/Guião 4/SpanningTree/spanning_tree/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Nov 22 22:54:25.801 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 23:19:05.490 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Nov 22 23:19:05.493 HYPERVISOR: exec_cmd: vm stop ESW2 
+Nov 22 23:19:05.593 VM: VM ESW2 shutdown.
+Nov 22 23:19:05.593 HYPERVISOR: exec_cmd: vm extract_config ESW2 
