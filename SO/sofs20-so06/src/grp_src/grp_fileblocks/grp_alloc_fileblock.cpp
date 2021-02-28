@@ -31,7 +31,7 @@ namespace sofs20
             throw SOException(EINVAL, __FUNCTION__);
         }
 
-        if (fbn < N_DIRECT) {
+        if (fbn < N_DIRECT) {            
             blk = soAllocDataBlock();
             inode->blkcnt += 1;
             inode->d[fbn] = blk;

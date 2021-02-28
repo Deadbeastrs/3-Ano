@@ -25,6 +25,7 @@ namespace sofs20
         soProbe(402, "%s(%u)\n", __FUNCTION__, in);
         
         // precondition
+        
         soOpenSuperblock();
         SOSuperblock* sb = soGetSuperblockPointer();
         if(!(in > 0 && in < sb->itotal)) throw SOException(EINVAL, __FUNCTION__);
@@ -38,9 +39,10 @@ namespace sofs20
         soSaveSuperblock();
 
         // clean inode
-        int inode_location = soOpenInode(in);
-        SOInode* inode = soGetInodePointer(inode_location);   
+        int ih = soOpenInode(in);
+        SOInode* inode = soGetInodePointer(ih);
         inode->lnkcnt = 0;
+        inode->mode = 0;
         inode->owner = 0;
         inode->group = 0;
         inode->size = 0;
@@ -59,8 +61,7 @@ namespace sofs20
         inode->i1[2] = BlockNullReference;
         inode->i2[N_DOUBLE_INDIRECT] = {};
         inode->i2[0] = BlockNullReference;
-        soSaveInode(inode_location);
-        soCloseInode(inode_location);
+        soSaveInode(ih);
     }
 };
 

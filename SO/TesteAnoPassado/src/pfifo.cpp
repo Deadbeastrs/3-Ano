@@ -117,4 +117,3 @@ void print_pfifo(PriorityFIFO* pfifo)
       idx = (idx + 1) % FIFO_MAXSIZE;
    }
 }
-

@@ -65,6 +65,7 @@ namespace sofs20
         inode->ctime = time(0);
         soSaveInode(ih);
         //soCloseInode(ih);
+        soSaveSuperblock();
         return sb->iidx;
     }
 };

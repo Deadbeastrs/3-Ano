@@ -1,0 +1,10 @@
+16,17c16,17
+< [01;34m(331)[0m grpReadFileBlock(0, 1, 0x7fffbb317e90)
+< [01;34m(301)[0m grpGetFileBlock(0, 1)
+---
+> [01;31m(331)[0m binReadFileBlock(0, 1, 0x7fffcb8712f0)
+> [01;31m(301)[0m binGetFileBlock(0, 1)
+19c19
+< [01;33m(563)[0m binReadDataBlock(1, 0x7fffbb317e90)
+---
+> [01;33m(563)[0m binReadDataBlock(1, 0x7fffcb8712f0)

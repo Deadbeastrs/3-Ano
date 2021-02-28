@@ -8,7 +8,7 @@
 #include <string.h>
 #include <errno.h>
 #include <sys/stat.h>
-
+#include <math.h>
 namespace sofs20
 {
     void grpRenameDirentry(int pih, const char *name, const char *newName)
@@ -20,7 +20,8 @@ namespace sofs20
         SODirentry entry[DPB];
         uint32_t x = 0;
         uint32_t y = 0;
-        for(uint32_t block = 0; block <= inode->size/BlockSize; block++)
+        uint32_t blockNumber = (uint32_t)ceil((double)inode->size/(double)BlockSize);
+        for(uint32_t block = 0; block <= blockNumber; block++)
         {
             soReadFileBlock(pih,block,entry);
             for(uint32_t j = 0;j<DPB;j++)

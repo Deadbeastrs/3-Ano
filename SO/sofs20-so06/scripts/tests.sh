@@ -24,7 +24,7 @@ adb ()
         esac;
     done;
 }
-testemanso ()
+teste ()
 {   
     helpmsg="fit «number» «perm»... [ OPTIONS ]\n";
     helpmsg+="  Fill inode table with «number» inodes with «perm»\n";
@@ -50,6 +50,33 @@ testemanso ()
         esac;
     done;
 }
+
+adet ()
+{   
+    helpmsg="fit «number» «perm»... [ OPTIONS ]\n";
+    helpmsg+="  Fill inode table with «number» inodes with «perm»\n";
+    helpmsg+="PARAMETERS:\n";
+    helpmsg+="  «number»       --- number of inodes\n";
+    helpmsg+="  «perm»       --- permission\n";
+    helpmsg+="OPTIONS:\n";
+    helpmsg+="  -h           --- this help";
+    while [[ $# -gt 0 ]]; do
+        case $1 in 
+            "-h")
+                InfoMessage "$helpmsg";
+                return
+            ;;
+            *)
+                for i in `seq 0 $1`
+                do  
+                    echo -ne "ade\n1\nteste$i\n1\nq\n" | tt -q 1;
+                done
+                break
+            ;;
+        esac;
+    done;
+}
+
 fit ()
 {   
     helpmsg="fit «number» «perm»... [ OPTIONS ]\n";
@@ -123,30 +150,4 @@ ttfdb ()
         esac;
     done;
 
-}
-
-adet ()
-{   
-    helpmsg="fit «number» «perm»... [ OPTIONS ]\n";
-    helpmsg+="  Fill inode table with «number» inodes with «perm»\n";
-    helpmsg+="PARAMETERS:\n";
-    helpmsg+="  «number»       --- number of inodes\n";
-    helpmsg+="  «perm»       --- permission\n";
-    helpmsg+="OPTIONS:\n";
-    helpmsg+="  -h           --- this help";
-    while [[ $# -gt 0 ]]; do
-        case $1 in 
-            "-h")
-                InfoMessage "$helpmsg";
-                return
-            ;;
-            *)
-                for i in `seq 0 $1`
-                do  
-                    echo -ne "ade\n1\nteste$i\n1\nq\n" | tt -b -q 1;
-                done
-                break
-            ;;
-        esac;
-    done;
 }

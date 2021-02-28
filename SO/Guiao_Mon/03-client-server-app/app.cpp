@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 {
     unsigned int nBuff = 100; ///< number of Buffers
     int nCli = 20;   ///< number of clients
-    int nServ = 1;   ///< number of >Servers
+    int nServ = 4;   ///< number of >Servers
 
     /* command line processing */
 
@@ -134,12 +134,6 @@ int main(int argc, char *argv[])
     {
         thread_join(cthr[i], NULL);
         printf("Client thread %d has terminated\n", i);
-    }
-
-    for (i = 0; i < nServ; i++)
-    {
-        thread_join(pthr[i], NULL);
-        printf("Server thread %d has terminated\n", i);
     }
 
     delete[] pool;

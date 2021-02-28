@@ -36,7 +36,7 @@ namespace sofs20
         uint32_t i1_size = N_INDIRECT * RPB;
         uint32_t i2_size = N_DOUBLE_INDIRECT * RPB * RPB;
         SOInode* inode =  soGetInodePointer(ih);
-        uint32_t blk;
+        
         if (ffbn < N_DIRECT) 
         {
             for(uint32_t i = ffbn; i < 4;i++)

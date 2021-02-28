@@ -24,6 +24,7 @@ class BayesNet:
                     prob*=(p if val else 1-p)
         return prob
 
+    
 
 # Footnote 1:
 # Default arguments are evaluated on function definition,
