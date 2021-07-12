@@ -1,0 +1,4 @@
+Start QEMU with /bin/qemu-system-x86_64 -name LabCOm2-1 -m 1024M -smp cpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/luiscosta/3-Ano/AR/Guiao_5/guiao_5_2/Guiao05_2/project-files/qemu/892ec577-8d2a-4ed2-9bdf-7ccbec37ddb0/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid 892ec577-8d2a-4ed2-9bdf-7ccbec37ddb0 -monitor tcp:127.0.0.1:40381,server,nowait -net none -device e1000,mac=0c:46:1d:dd:b0:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10013,localaddr=127.0.0.1:10012
+
+Execution log:
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm [bit 2]

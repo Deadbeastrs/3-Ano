@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IHC_Proj</string>
+    <string name="mission">Mission</string>
+    <color name="corBackGround">#FFFFFF</color>
+    <string name="title_activity_main11">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="api_key">AIzaSyDDFYNVSadWbFoKhDcAi64Ecm8ALgEllEM</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main19">MainActivity19</string>
+    <string name="tab_text_1">Participants</string>
+    <string name="tab_text_2">Mission Info</string>
+</resources>

@@ -1,0 +1,131 @@
+May 11 08:57:57.890 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 11 08:57:57.890 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38541.
+May 11 08:57:57.901 HYPERVISOR: exec_cmd: hypervisor version 
+May 11 08:57:57.901 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips 
+May 11 08:57:57.901 GENERAL: working_dir=/home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips
+May 11 08:57:57.901 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/beda3142-711b-4397-bc5a-d41837b9fa3a 
+May 11 08:57:57.901 GENERAL: working_dir=/home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/beda3142-711b-4397-bc5a-d41837b9fa3a
+May 11 08:57:57.901 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+May 11 08:57:57.901 VM: VM R1 created.
+May 11 08:57:57.901 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5005 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:57.902 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608040 
+May 11 08:57:57.903 HYPERVISOR: exec_cmd: vm set_ios R1 /home/luiscosta/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 11 08:57:57.903 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.1847.0000 
+May 11 08:57:57.903 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+May 11 08:57:57.903 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:57.904 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+May 11 08:57:57.905 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5005 
+May 11 08:57:58.056 HYPERVISOR: exec_cmd: nio create_udp udp-bc8c83c9-e5b5-47aa-a93f-d552e658a484 10022 127.0.0.1 10023 
+May 11 08:57:58.267 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-bc8c83c9-e5b5-47aa-a93f-d552e658a484 
+May 11 08:57:58.268 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:57:58.324 HYPERVISOR: exec_cmd: nio create_udp udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 10026 127.0.0.1 10027 
+May 11 08:57:58.325 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 
+May 11 08:57:58.326 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:58:04.559 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 08:58:04.560 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 08:58:04.561 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 08:58:04.562 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 08:58:04.563 HYPERVISOR: exec_cmd: vm start R1 
+May 11 08:58:34.792 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:06:34.827 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:08:04.833 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:08:49.175 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:08:49.175 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:08:49.286 VM: VM R1 shutdown.
+May 11 09:08:49.287 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:11:35.474 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:11:35.475 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:11:35.475 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:11:35.475 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:11:35.475 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:14:28.295 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:14:28.295 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:14:28.295 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:17:20.558 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:17:20.558 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:17:20.660 VM: VM R1 shutdown.
+May 11 09:17:20.661 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:18:30.370 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:18:30.371 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:18:30.371 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:18:30.372 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:18:30.372 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:20:30.614 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:20:56.359 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:20:56.359 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:20:56.480 VM: VM R1 shutdown.
+May 11 09:20:56.482 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:21:17.823 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:21:17.824 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:21:17.824 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:21:17.824 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:21:17.825 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:28:14.547 HYPERVISOR: exec_cmd: nio bind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 capture 
+May 11 09:28:14.547 HYPERVISOR: exec_cmd: nio setup_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 en10mb /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/captures/R1_FastEthernet01_to_R2_FastEthernet00.pcap 
+May 11 09:34:05.596 HYPERVISOR: exec_cmd: nio unbind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 
+May 11 09:34:09.231 HYPERVISOR: exec_cmd: nio bind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 capture 
+May 11 09:34:09.231 HYPERVISOR: exec_cmd: nio setup_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 en10mb /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/captures/R1_FastEthernet01_to_R2_FastEthernet00.pcap 
+May 11 09:34:39.510 HYPERVISOR: exec_cmd: nio unbind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 
+May 11 09:34:42.813 HYPERVISOR: exec_cmd: nio bind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 capture 
+May 11 09:34:42.813 HYPERVISOR: exec_cmd: nio setup_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 en10mb /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/captures/R1_FastEthernet01_to_R2_FastEthernet00.pcap 
+May 11 09:39:15.299 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:39:15.300 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:39:15.425 VM: VM R1 shutdown.
+May 11 09:39:15.425 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:39:15.434 HYPERVISOR: exec_cmd: nio unbind_filter udp-55bf4dc3-0044-47ee-b616-706bbfdc802d 2 
+May 11 09:40:11.484 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:40:11.485 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:40:11.485 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:40:11.485 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:40:11.485 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:47:06.458 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:47:06.458 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:47:06.575 VM: VM R1 shutdown.
+May 11 09:47:06.576 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:47:23.116 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:47:23.117 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:47:23.118 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:47:23.119 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:47:23.121 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:54:54.154 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:54:54.154 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:54:54.278 VM: VM R1 shutdown.
+May 11 09:54:54.279 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:55:04.872 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:55:04.872 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:55:04.872 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:55:04.873 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:55:04.873 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:57:41.777 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:57:41.777 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:57:41.872 VM: VM R1 shutdown.
+May 11 09:57:41.872 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:57:44.275 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:57:44.275 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x0 
+May 11 09:57:44.276 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:57:44.276 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:57:44.276 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:57:44.276 HYPERVISOR: exec_cmd: vm start R1 
+May 11 09:58:04.515 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R1 0 
+May 11 09:58:14.605 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:58:14.605 HYPERVISOR: exec_cmd: vm stop R1 
+May 11 09:58:14.705 VM: VM R1 shutdown.
+May 11 09:58:14.706 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 11 09:58:18.519 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:58:18.520 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608040 
+May 11 09:59:05.144 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 11 09:59:05.145 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_4/guiao4_2/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 11 09:59:05.145 HYPERVISOR: exec_cmd: vm get_status R1 
+May 11 09:59:05.145 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+May 11 09:59:05.145 HYPERVISOR: exec_cmd: vm start R1 
+May 11 10:01:35.380 HYPERVISOR: exec_cmd: vm extract_config R1 

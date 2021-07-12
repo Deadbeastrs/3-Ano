@@ -1,0 +1,90 @@
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.exe
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.deps.json
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.runtimeconfig.json
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.runtimeconfig.dev.json
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.pdb
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csprojAssemblyReference.cache
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.GenerateResource.cache
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.AssemblyInfoInputs.cache
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.AssemblyInfo.cs
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.CopyComplete
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.pdb
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.genruntimeconfig.cache
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Properties.Resources.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Página_organizador.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Inicial.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Festivais.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Venues.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Patrocinios.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Staff.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contratar_Staff.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contratar_Artista.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contactar_Sponsor.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Concerto.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Apagar_Festival.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Cartaz.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Escolher_Festival.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Introduzir_Organizador.resources
+C:\Users\guilh\source\repos\BD_PROJ\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Festival_Info.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.exe
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.deps.json
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.runtimeconfig.json
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.runtimeconfig.dev.json
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BD_PROJ.pdb
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csprojAssemblyReference.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Cartaz.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contactar_Sponsor.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contratar_Artista.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Contratar_Staff.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Escolher_Festival.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Concerto.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Patrocinios.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Adicionar_Staff.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Apagar_Festival.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Festivais.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Festival_Info.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Inicial.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Introduzir_Organizador.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Pagina_Venues.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Properties.Resources.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.Página_organizador.resources
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.GenerateResource.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.AssemblyInfoInputs.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.AssemblyInfo.cs
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.CoreCompileInputs.cache
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.csproj.CopyComplete
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.dll
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.pdb
+C:\Users\guilh\OneDrive\Área de Trabalho\Rep_GUI_LUIS\IHC_BD_AR\BD_Entrega\BD_PROJ\obj\Debug\netcoreapp3.1\BD_PROJ.genruntimeconfig.cache

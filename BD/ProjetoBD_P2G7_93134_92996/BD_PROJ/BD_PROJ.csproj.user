@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Cartaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Contactar_Sponsor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Contratar_Artista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Contratar_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Escolher_Festival.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Adicionar_Concerto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Adicionar_Patrocinios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Adicionar_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Apagar_Festival.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Festivais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Festival_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Introduzir_Organizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pagina_Venues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Página_organizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

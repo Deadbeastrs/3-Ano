@@ -1,0 +1,78 @@
+Apr 20 08:43:23.870 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Apr 20 08:43:23.870 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43351.
+Apr 20 08:43:23.880 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 08:43:23.881 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips 
+Apr 20 08:43:23.881 GENERAL: working_dir=/home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips
+Apr 20 08:43:23.881 HYPERVISOR: exec_cmd: hypervisor working_dir /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/ccafbb01-aabc-4aaa-9ca4-cd3bf36fc773 
+Apr 20 08:43:23.881 GENERAL: working_dir=/home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/ccafbb01-aabc-4aaa-9ca4-cd3bf36fc773
+Apr 20 08:43:23.881 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Apr 20 08:43:23.881 VM: VM R1 created.
+Apr 20 08:43:23.881 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5003 
+Apr 20 08:43:23.881 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Apr 20 08:43:23.882 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:23.882 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Apr 20 08:43:23.882 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 20 08:43:23.882 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:23.882 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608040 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: vm set_ios R1 /home/luiscosta/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.380f.0000 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:23.883 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Apr 20 08:43:23.884 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:23.884 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Apr 20 08:43:23.884 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:23.884 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Apr 20 08:43:24.001 HYPERVISOR: exec_cmd: nio create_udp udp-c9c003b3-dd29-4228-adfe-aee0b9dbfbb0 10002 127.0.0.1 10003 
+Apr 20 08:43:24.215 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-c9c003b3-dd29-4228-adfe-aee0b9dbfbb0 
+Apr 20 08:43:24.216 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:43:24.326 HYPERVISOR: exec_cmd: nio create_udp udp-250fc767-6933-4780-a584-2a6af5a227a6 10008 127.0.0.1 10009 
+Apr 20 08:43:24.327 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-250fc767-6933-4780-a584-2a6af5a227a6 
+Apr 20 08:43:24.327 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:44:11.005 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Apr 20 08:44:11.005 VM: VM Ghost created.
+Apr 20 08:44:11.015 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/luiscosta/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Apr 20 08:44:11.016 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 20 08:44:11.021 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 20 08:44:11.025 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Apr 20 08:44:11.026 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 20 08:44:11.027 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Apr 20 08:44:11.031 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 20 08:44:11.485 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 20 08:44:11.486 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 20 08:44:11.648 VM: VM Ghost shutdown.
+Apr 20 08:44:11.649 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Apr 20 08:44:11.651 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 20 08:44:11.651 VM: VM Ghost destroyed.
+Apr 20 08:44:11.654 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 20 08:44:11.655 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 20 08:44:11.655 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:44:11.657 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+Apr 20 08:44:11.658 HYPERVISOR: exec_cmd: vm start R1 
+Apr 20 08:44:41.897 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 08:47:58.540 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:47:58.541 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 20 08:47:58.623 VM: VM R1 shutdown.
+Apr 20 08:47:58.624 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 08:51:19.261 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 20 08:51:19.262 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 20 08:51:19.263 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 08:51:19.268 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+Apr 20 08:51:19.272 HYPERVISOR: exec_cmd: vm start R1 
+Apr 20 09:16:57.138 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 20 09:16:57.155 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/luiscosta/3-Ano/AR/Guiao_3/Guiao3_1/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Apr 20 09:16:57.157 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 09:41:44.611 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 09:41:44.613 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 20 09:41:44.699 VM: VM R1 shutdown.
+Apr 20 09:41:44.699 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 09:42:15.845 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 09:42:15.849 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 09:42:15.900 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 09:42:15.901 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 09:42:15.901 HYPERVISOR: exec_cmd: vm delete R1 
+Apr 20 09:42:15.901 VM: VM R1 destroyed.
+Apr 20 09:42:15.902 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 09:42:16.192 HYPERVISOR: Stopped.
+Apr 20 09:42:16.192 GENERAL: reset done.
